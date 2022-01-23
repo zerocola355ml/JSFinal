@@ -112,7 +112,7 @@ if (savedUsername === null) {
 //background
 //const fs = require("fs");
 readdir("./img", (err, files) => {
-  document.body.style.backgroundImage = `url('./img/${Math.floor(
+  document.body.style.backgroundImage = `url('/img/${Math.floor(
     Math.random() * files.length
   )}.jpg')`;
   document.body.style.backgroundSize = "cover";
