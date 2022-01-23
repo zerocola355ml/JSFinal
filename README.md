@@ -1,2 +1,0 @@
-# JSFinal
-Created with CodeSandbox
